@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ClassDependencyModel/DependencyAnalyzer.csproj" />
+  <Project Path="ClassDependencyVisualizer/ClassDependencyVisualizer.csproj" />
+</Solution>

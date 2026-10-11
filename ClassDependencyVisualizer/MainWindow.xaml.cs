@@ -19,7 +19,6 @@ using System.Text.RegularExpressions;
 using System.Windows.Threading;
 using ClassDependencyVisualizer.Manager;
 using System.Windows.Data;
-using Microsoft.Build.Tasks;
 using System.Xml.Linq;
 
 
@@ -294,7 +293,7 @@ namespace ClassDependencyVisualizer
         {
             var dialog = new OpenFileDialog
             {
-                Filter = "Solution Files (*.sln)|*.sln",
+                Filter = "Solution Files (*.sln, *.slnx)|*.sln;*.slnx",
                 Title = "ソリューションファイルを選択"
             };
 
